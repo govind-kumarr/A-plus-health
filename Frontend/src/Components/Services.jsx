@@ -40,5 +40,13 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: space-around;
   }
+  @media (max-width: 450px) {
+    margin: 1rem 0rem;
+    .all_services {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
 `;
 export default Services;

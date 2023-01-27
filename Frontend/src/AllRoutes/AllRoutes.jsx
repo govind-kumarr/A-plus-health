@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Appointment from "../Pages/Appointment/Appointment";
 import Home from "../Pages/Home";
 
 const AllRoutes = () => {
@@ -7,7 +8,7 @@ const AllRoutes = () => {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/doctors" />
-      <Route />
+      <Route path="/appointment" element={<Appointment />} />
     </Routes>
   );
 };
