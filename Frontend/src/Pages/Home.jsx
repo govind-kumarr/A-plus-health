@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import styled from "styled-components";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  return <Wrapper>Home</Wrapper>;
+};
 
-export default Home
+const Wrapper = styled.div`
+  max-width: 120rem;
+  border: 1px solid red;
+  margin: auto;
+`;
+
+export default Home;
