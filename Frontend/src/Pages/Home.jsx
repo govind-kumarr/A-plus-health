@@ -1,14 +1,20 @@
 import React from "react";
 import styled from "styled-components";
+import Services from "../Components/Services";
+import UpperSlder from "../Components/UpperSlder";
 
 const Home = () => {
-  return <Wrapper>Home</Wrapper>;
+  return (
+    <Wrapper>
+      <UpperSlder />
+      <Services />
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.div`
-  max-width: 120rem;
-  border: 1px solid red;
-  margin: auto;
+  /* background: #ededed; */
+  padding: 2rem 0rem;
 `;
 
 export default Home;
