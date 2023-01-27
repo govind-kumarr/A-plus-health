@@ -3,7 +3,6 @@ import {
   Container,
   Flex,
   HStack,
-  Icon,
   Image,
   Link,
   SimpleGrid,
@@ -11,16 +10,13 @@ import {
   Text,
 } from "@chakra-ui/react";
 import {
-  faFacebook,
   FaFacebookSquare,
   FaInstagram,
-  FaInstagramSquare,
   FaLinkedinIn,
   FaTwitter,
-  FaTwitterSquare,
   FaWhatsapp,
   FaYoutube,
-  FaYoutubeSquare,
+  
 } from "react-icons/fa";
 
 const ListHeader = ({ children }) => {
