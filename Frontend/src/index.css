@@ -6,7 +6,9 @@ html {
   font-family: "Poppins", sans-serif;
   font-size: 62.5%;
 }
-
+body {
+  background: #86e5ff;
+}
 /* colors to be used 
 Main color -> #0081C9;
 secondry color -> #5BC0F8;
