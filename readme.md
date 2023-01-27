@@ -9,7 +9,7 @@ The Idea is to build a web application for health monitoring and diagnostics sys
 
 - Member-1 [Shravani Mishra](https://github.com/ShravaniMishra)
 - Member-2 [Govind Kumar](https://github.com/govind-kumarr)
-
+- Member-3 [Kirti Gupta](https://github.com/kirti2818)
 
 ---
 
