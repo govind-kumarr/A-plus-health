@@ -1,25 +1,25 @@
 import React from "react";
 import styled from "styled-components";
 
-const ProductCard = () => {
-  let data = {
-    product_img_src:
-      "https://www.netmeds.com/images/product-v1/150x150/859708/omron_compressor_nebulizer_ne_c101_0.jpg",
-    discount_percent: "20% OFF",
-    product_name: "Omron Compressor Nebulizer",
-    brand: "Mkt: Omron Healthcare Co Ltd",
-    discount_price: "Rs. 1,904.00",
-    original_price: "Rs. 2,380.00",
-    category: "device",
-    dev_cat: "breathing",
-  };
+const ProductCard = ({data}) => {
+  // let data = {
+  //   product_img_src:
+  //     "https://www.netmeds.com/images/product-v1/150x150/859708/omron_compressor_nebulizer_ne_c101_0.jpg",
+  //   discount_percent: "20% OFF",
+  //   product_name: "Omron Compressor Nebulizer",
+  //   brand: "Mkt: Omron Healthcare Co Ltd",
+  //   discount_price: "Rs. 1,904.00",
+  //   original_price: "Rs. 2,380.00",
+  //   category: "device",
+  //   dev_cat: "breathing",
+  // };
   return (
     <Wrapper>
       <div className="product_card">
         <div className="product_image">
           <img src={data.product_img_src} alt={data.product_name} />
         </div>
-        <span className="product_title">{data.product_name}</span>
+        <span className="product_title">{data.product_name&&data.product_name.slice(0,30)}</span>
         <span className="product_manufact">
           <i>{data.brand}</i>
         </span>
@@ -35,7 +35,7 @@ const ProductCard = () => {
 };
 const Wrapper = styled.div`
   .product_card {
-    /* border: 1px solid red; */
+    border: 2px solid #0081c9;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 0rem 1rem;
     padding: 1rem;
@@ -44,6 +44,7 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     border-radius: 1rem;
+    height: 40rem;
   }
   .product_card span {
     display: block;
@@ -77,6 +78,9 @@ const Wrapper = styled.div`
     width: 100%;
     padding: 1rem;
     border-radius: 1rem;
+  }
+  .btn:hover {
+    background: #86e5ff;
   }
 `;
 export default ProductCard;
