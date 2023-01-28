@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 const BookApointment = () => {
+  const navigate = useNavigate();
   return (
     <Wrapper>
       <section className="section_appointment">
@@ -14,7 +16,12 @@ const BookApointment = () => {
               laboriosam autem, dolorem possimus explicabo aperiam iste modi
               earum
             </p>
-            <button className="btn apt_btn">book appointment</button>
+            <button
+              className="btn apt_btn"
+              onClick={() => navigate("/appointment")}
+            >
+              book appointment
+            </button>
           </div>
         </div>
       </section>
