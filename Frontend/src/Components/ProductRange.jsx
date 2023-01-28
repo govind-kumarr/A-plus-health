@@ -8,7 +8,14 @@ const ProductRange = () => {
     <Wrapper>
       <section className="section_productRange">
         <span className="section_product_range_heading">Our Product Range</span>
-        <ProductSlider data={data} />
+        <ProductSlider data={data.slice(0, 10)} title={"Ayush Products"} />
+        <ProductSlider
+          data={data.slice(10, 20)}
+          title={"Vitamins And Supplements"}
+        />
+        <ProductSlider data={data.slice(20, 30)} title={"Cough & Cold"} />
+        <ProductSlider data={data.slice(30, 40)} title={"Fitness"} />
+        <ProductSlider data={data.slice(45, 60)} title={"Sexual Wellness"} />
       </section>
     </Wrapper>
   );

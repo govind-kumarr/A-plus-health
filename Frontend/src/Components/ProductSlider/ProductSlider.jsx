@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ProductCard from "../small-components/ProductCard";
-const ProductSlider = ({ data }) => {
+const ProductSlider = ({ data, title }) => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -23,18 +23,28 @@ const ProductSlider = ({ data }) => {
       items: 1,
     },
   };
-  let mock = new Array(5).fill(-1);
+  // let mock = new Array(5).fill(-1);
   return (
     <Wrapper>
+      <span className="slider_title">{title}</span>
       <Carousel responsive={responsive}>
-        {mock.map((ele, ind) => (
-          <ProductCard />
+        {data.map((product, ind) => (
+          <ProductCard key={ind} data={product} />
         ))}
       </Carousel>
     </Wrapper>
   );
 };
 const Wrapper = styled.div`
+  .slider_title {
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #5bc0f8;
+  }
   margin: 1rem;
 `;
 export default ProductSlider;

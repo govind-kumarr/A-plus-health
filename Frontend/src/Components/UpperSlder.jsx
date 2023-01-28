@@ -46,7 +46,10 @@ const UpperSlder = () => {
 const Wrapper = styled.div`
   height: 60vh;
   max-width: 120rem;
-  margin: auto;
+  margin: 3rem auto;
+  margin-top: 8rem;
+  /* padding: 1rem 0rem; */
+  /* border: 1px solid red; */
   .upper_slider {
     height: 100%;
   }

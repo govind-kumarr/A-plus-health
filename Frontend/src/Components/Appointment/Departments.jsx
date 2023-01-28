@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import DepartmentCard from "../small-components/DepartmentCard";
 
-const TimeSlots = ({ data, heading }) => {
+const Departments = ({ data, heading }) => {
   return (
     <Wrapper>
       <section className="section_department">
@@ -34,4 +34,4 @@ const Wrapper = styled.div`
     background-color: #0081c9;
   }
 `;
-export default TimeSlots;
+export default Departments;
