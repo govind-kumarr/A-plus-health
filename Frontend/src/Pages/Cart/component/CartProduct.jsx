@@ -42,11 +42,16 @@ const CartProduct = ({ product }) => {
 };
 const Wrapper = styled.div`
   /* padding: 2rem; */
-  .cart_product {
+  .product_image{
+    height: 100%;
+    border-radius: 2rem;
+  } .cart_product {
     border: 1px solid #0081c9;
     width: 100%;
     display: flex;
     align-items: center;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .cart_product_desc {
     /* border: 1px solid #0081c9; */

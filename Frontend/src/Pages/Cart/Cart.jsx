@@ -38,7 +38,8 @@ const Wrapper = styled.div`
 
   .section_cart {
     max-width: 120rem;
-    border: 1px solid #0081c9;
+    border: 3px solid #0081c9;
+    padding: 0rem 1rem;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -57,13 +58,15 @@ const Wrapper = styled.div`
   }
   .cart_products {
     grid-column: 1 / span 3;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 50vh;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+    overflow: scroll;
   }
   .payment_section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 `;
 export default Cart;
