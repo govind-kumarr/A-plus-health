@@ -26,7 +26,7 @@ export const Navbar = () => {
 
 
   const Click=()=>{
-    navigate('/cartpage')
+    // navigate('/cartpage')
   }
 
 
