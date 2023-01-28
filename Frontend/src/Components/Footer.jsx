@@ -3,7 +3,6 @@ import {
   Container,
   Flex,
   HStack,
-  Icon,
   Image,
   Link,
   SimpleGrid,
@@ -11,16 +10,13 @@ import {
   Text,
 } from "@chakra-ui/react";
 import {
-  faFacebook,
   FaFacebookSquare,
   FaInstagram,
-  FaInstagramSquare,
   FaLinkedinIn,
   FaTwitter,
-  FaTwitterSquare,
   FaWhatsapp,
   FaYoutube,
-  FaYoutubeSquare,
+  
 } from "react-icons/fa";
 
 const ListHeader = ({ children }) => {
@@ -36,7 +32,7 @@ export default function Footer() {
     <Box bgColor={"#0081C9"} color={"white"} mt={"30"}>
       <Container
         as={Stack}
-        maxW={"8xl"}
+        maxW={"6xl"}
         py={10}
         borderBottom={"2px solid"}
         borderColor={"gray.600"}
@@ -79,7 +75,7 @@ export default function Footer() {
             </Stack>
           </Stack>
           <Stack align={"flex-start"}>
-            <ListHeader>Department</ListHeader>
+            <ListHeader>Departments</ListHeader>
             <Link href={"#"}>Cardiology</Link>
             <Link href={"#"}>Pulmonology</Link>
             <Link href={"#"}>Gastroenterology</Link>
@@ -90,13 +86,13 @@ export default function Footer() {
           </Stack>
           <Stack align={"flex-start"}>
             <ListHeader>How it works?</ListHeader>
-            <Link href={"#"}>Support</Link>
-            <Link href={"#"}>Faster Response</Link>
-            <Link href={"#"}>Best Suggestion</Link>
-            <Link href={"#"}>FAQ</Link>
             <Link href={"#"}>Best Services</Link>
-            <Link href={"#"}>Immense Hardwork</Link>
-            <Link href={"#"}>Trustful & Safety</Link>
+            <Link href={"#"}>Support</Link>
+            <Link href={"#"}>Best Suggestion</Link>
+            <Link href={"#"}>Help to needy</Link>
+            <Link href={"#"}>Depth Consultancy</Link>
+            <Link href={"#"}>24*7 Open</Link>
+            <Link href={"#"}>Query Resolve</Link>
           </Stack>
           <Stack align={"flex-start"}>
             <ListHeader>About Us</ListHeader>
@@ -104,15 +100,15 @@ export default function Footer() {
             <Link href={"#"}>In The News</Link>
             <Link href={"#"}>Our Partners</Link>
             <Link href={"#"}>Careers</Link>
-            <Link href={"#"}>A+ Health Blog</Link>
+            <Link href={"#"}>A+ Blog</Link>
             <Link href={"#"}>Success Stories</Link>
           </Stack>
           <Stack align={"flex-start"}>
             <ListHeader>Support</ListHeader>
             <Link href={"#"}>Medical Finance</Link>
             <Link href={"#"}>FAQs & Help Center</Link>
-            <Link href={"#"}>Are A+ Health Campaigns Genuine?</Link>
-            <Link href={"#"}>Fundraiser Video</Link>
+            <Link href={"#"}>Are A+ Campaigns Genuine?</Link>
+            <Link href={"#"}>A+ Health Video</Link>
             <Link href={"#"}>Trust & Safety</Link>
             <Link href={"#"}>Plans & Pricing</Link>
             <Link href={"#"}>Contact Us</Link>
@@ -124,7 +120,7 @@ export default function Footer() {
       </Container>
       <Container as={Stack} maxW={"6xl"} py={10}>
         <Text textAlign={"center"} fontSize={"sm"}>
-          Copyright © 2022 A+ Health Online Ventures Pvt Ltd. All Rights Reserved.
+          Copyright © 2023 A+ Online Ventures Pvt Ltd. All Rights Reserved.
           Terms of Use | Privacy Policy | AML Policy | Use of cookies{" "}
         </Text>
       </Container>
