@@ -1,3 +1,4 @@
+// const { v1: uniqueID } = require("uuid");
 let data = [
   {
     product_img_src:
@@ -9,6 +10,7 @@ let data = [
     brand: "Mkt: Aeronutrix Sports Products Private Limited",
     discount_price: "Rs. 319.80",
     original_price: "Rs. 390.00",
+    id: "e0abf5a0",
   },
   {
     product_img_src:
@@ -19,6 +21,7 @@ let data = [
     brand: "Mkt: Inlife Pharma Private Limited",
     discount_price: "Rs. 378.00",
     original_price: "Rs. 600.00",
+    id: "e0abf5a1",
   },
   {
     product_img_src:
@@ -29,6 +32,7 @@ let data = [
     brand: "Mkt: Organic India Pvt Ltd",
     discount_price: "Rs. 191.25",
     original_price: "Rs. 225.00",
+    id: "e0abf5a2",
   },
   {
     product_img_src:
@@ -39,6 +43,7 @@ let data = [
     brand: "Mkt: Organic India Pvt Ltd",
     discount_price: "Rs. 174.25",
     original_price: "Rs. 205.00",
+    id: "e0abf5a3",
   },
   {
     product_img_src:
@@ -49,6 +54,7 @@ let data = [
     brand: "Mkt: Organic India Pvt Ltd",
     discount_price: "Rs. 250.75",
     original_price: "Rs. 295.00",
+    id: "e0abf5a4",
   },
   {
     product_img_src:
@@ -60,6 +66,7 @@ let data = [
     brand: "Mkt: West Coast Pharmaceuticals Works Ltd",
     discount_price: "Rs. 715.00",
     original_price: "Rs. 1,100.00",
+    id: "e0abf5a5",
   },
   {
     product_img_src:
@@ -70,6 +77,7 @@ let data = [
     brand: "Mkt: Inlife Pharma Private Limited",
     discount_price: "Rs. 282.87",
     original_price: "Rs. 449.00",
+    id: "e0ac43c0",
   },
   {
     product_img_src:
@@ -80,6 +88,7 @@ let data = [
     brand: "Mkt: Inlife Pharma Private Limited",
     discount_price: "Rs. 363.48",
     original_price: "Rs. 699.00",
+    id: "e0ac43c1",
   },
   {
     product_img_src:
@@ -90,6 +99,7 @@ let data = [
     brand: "Mkt: Inlife Pharma Private Limited",
     discount_price: "Rs. 398.43",
     original_price: "Rs. 699.00",
+    id: "e0ac43c2",
   },
   {
     product_img_src:
@@ -100,6 +110,7 @@ let data = [
     brand: "Mkt: Organic India Pvt Ltd",
     discount_price: "Rs. 184.50",
     original_price: "Rs. 205.00",
+    id: "e0ac43c3",
   },
   {
     product_img_src:
@@ -110,6 +121,7 @@ let data = [
     brand: "Mkt: Inlife Pharma Private Limited",
     discount_price: "Rs. 356.49",
     original_price: "Rs. 699.00",
+    id: "e0ac43c4",
   },
   {
     product_img_src:
@@ -120,8 +132,8 @@ let data = [
     brand: "Mkt: Gsk",
     discount_price: "Rs. 147.72",
     original_price: "Rs. 166.73",
+    id: "e0ac43c5",
   },
-
   {
     product_img_src:
       "https://www.netmeds.com/images/product-v1/150x150/14019/vicks_vaporub_10_ml_0.jpg",
@@ -132,6 +144,7 @@ let data = [
     brand: "Mkt: Procter & Gamble",
     discount_price: "Rs. 39.90",
     original_price: "Rs. 42.00",
+    id: "e0ac43c6",
   },
   {
     product_img_src:
@@ -143,6 +156,7 @@ let data = [
     brand: "Mkt: Adret Retail Pvt Ltd, (Kapiva)",
     discount_price: "Rs. 320.00",
     original_price: "Rs. 400.00",
+    id: "e0ac43c7",
   },
   {
     product_img_src:
@@ -154,6 +168,7 @@ let data = [
     brand: "Mkt: The Himalaya Drug Company",
     discount_price: "Rs. 39.15",
     original_price: "Rs. 45.00",
+    id: "e0ac43c8",
   },
   {
     product_img_src:
@@ -165,6 +180,7 @@ let data = [
     brand: "Mkt: Procter & Gamble",
     discount_price: "Rs. 156.40",
     original_price: "Rs. 170.00",
+    id: "e0ac43c9",
   },
   {
     product_img_src:
@@ -176,6 +192,7 @@ let data = [
     brand: "Mkt: Procter & Gamble",
     discount_price: "Rs. 44.18",
     original_price: "Rs. 47.00",
+    id: "e0ac43ca",
   },
   {
     product_img_src:
@@ -187,6 +204,7 @@ let data = [
     brand: "Mkt: The Himalaya Drug Company",
     discount_price: "Rs. 108.75",
     original_price: "Rs. 125.00",
+    id: "e0ac43cb",
   },
   {
     product_img_src:
@@ -198,6 +216,7 @@ let data = [
     brand: "Mkt: Adret Retail Pvt Ltd, (Kapiva)",
     discount_price: "Rs. 375.00",
     original_price: "Rs. 500.00",
+    id: "e0ac43cc",
   },
   {
     product_img_src:
@@ -209,6 +228,7 @@ let data = [
     brand: "Mkt: Sriveda Sattva Pvt Ltd",
     discount_price: "Rs. 104.50",
     original_price: "Rs. 110.00",
+    id: "e0ac43cd",
   },
   {
     product_img_src:
@@ -220,6 +240,7 @@ let data = [
     brand: "Mkt: Sriveda Sattva Pvt Ltd",
     discount_price: "Rs. 104.50",
     original_price: "Rs. 110.00",
+    id: "e0ac43ce",
   },
   {
     product_img_src:
@@ -231,6 +252,7 @@ let data = [
     brand: "Mkt: Sriveda Sattva Pvt Ltd",
     discount_price: "Rs. 171.00",
     original_price: "Rs. 180.00",
+    id: "e0ac43cf",
   },
   {
     product_img_src:
@@ -242,6 +264,7 @@ let data = [
     brand: "Mkt: Dr Morepen",
     discount_price: "Rs. 45.60",
     original_price: "Rs. 76.00",
+    id: "e0ac43d0",
   },
   {
     product_img_src:
@@ -253,6 +276,7 @@ let data = [
     brand: "Mkt: Procter & Gamble",
     discount_price: "Rs. 95.55",
     original_price: "Rs. 105.00",
+    id: "e0ac43d1",
   },
   {
     product_img_src:
@@ -263,6 +287,7 @@ let data = [
     brand: "Mkt: Procter & Gamble",
     discount_price: "Rs. 139.50",
     original_price: "Rs. 155.00",
+    id: "e0ac43d2",
   },
   {
     product_img_src:
@@ -273,6 +298,7 @@ let data = [
     brand: "Mkt: Procter & Gamble",
     discount_price: "Rs. 20.90",
     original_price: "Rs. 22.00",
+    id: "e0ac43d3",
   },
   {
     product_img_src:
@@ -283,6 +309,7 @@ let data = [
     brand: "Mkt: Cipla Ltd(Otc)",
     discount_price: "Rs. 25.41",
     original_price: "Rs. 33.00",
+    id: "e0ac43d4",
   },
   {
     product_img_src:
@@ -293,6 +320,7 @@ let data = [
     brand: "Mkt: Cipla Ltd(Otc)",
     discount_price: "Rs. 25.41",
     original_price: "Rs. 33.00",
+    id: "e0ac43d5",
   },
   {
     product_img_src:
@@ -303,6 +331,7 @@ let data = [
     brand: "Mkt: Procter & Gamble",
     discount_price: "Rs. 57.04",
     original_price: "Rs. 62.00",
+    id: "e0ac43d6",
   },
   {
     product_img_src:
@@ -313,6 +342,7 @@ let data = [
     brand: "Mkt: Procter & Gamble",
     discount_price: "Rs. 85.50",
     original_price: "Rs. 90.00",
+    id: "e0ac43d7",
   },
   {
     product_img_src:
@@ -323,6 +353,7 @@ let data = [
     brand: "Mkt: Amrutanjan Ltd",
     discount_price: "Rs. 47.50",
     original_price: "Rs. 50.00",
+    id: "e0ac43d8",
   },
   {
     product_img_src:
@@ -333,6 +364,7 @@ let data = [
     brand: "Mkt: Procter & Gamble",
     discount_price: "Rs. 105.60",
     original_price: "Rs. 110.00",
+    id: "e0ac43d9",
   },
   {
     product_img_src:
@@ -346,6 +378,7 @@ let data = [
     discount_price: "Rs. 562.50",
     price: "MRP",
     original_price: "Rs. 625.00",
+    id: "e0ac43da",
   },
   {
     product_img_src:
@@ -359,6 +392,7 @@ let data = [
     discount_price: "Rs. 2,799.00",
     price: "",
     original_price: "",
+    id: "e0ac43db",
   },
   {
     product_img_src:
@@ -372,6 +406,7 @@ let data = [
     discount_price: "Rs. 1,035.00",
     price: "MRP",
     original_price: "Rs. 1,125.00",
+    id: "e0ac43dc",
   },
   {
     product_img_src:
@@ -385,6 +420,7 @@ let data = [
     discount_price: "Rs. 396.00",
     price: "MRP",
     original_price: "Rs. 990.00",
+    id: "e0ac43dd",
   },
   {
     product_img_src:
@@ -398,6 +434,7 @@ let data = [
     discount_price: "Rs. 399.03",
     price: "MRP",
     original_price: "Rs. 849.00",
+    id: "e0ac43de",
   },
   {
     product_img_src:
@@ -411,6 +448,7 @@ let data = [
     discount_price: "Rs. 440.00",
     price: "MRP",
     original_price: "Rs. 550.00",
+    id: "e0ac43df",
   },
   {
     product_img_src:
@@ -424,6 +462,7 @@ let data = [
     discount_price: "Rs. 711.93",
     price: "MRP",
     original_price: "Rs. 1,249.00",
+    id: "e0ac43e0",
   },
   {
     product_img_src:
@@ -438,6 +477,7 @@ let data = [
     discount_price: "Rs. 1,296.00",
     price: "MRP",
     original_price: "Rs. 1,600.00",
+    id: "e0ac43e1",
   },
   {
     product_img_src:
@@ -451,6 +491,7 @@ let data = [
     discount_price: "Rs. 2,211.30",
     price: "MRP",
     original_price: "Rs. 2,457.00",
+    id: "e0ac43e2",
   },
   {
     product_img_src:
@@ -464,6 +505,7 @@ let data = [
     discount_price: "Rs. 160.00",
     price: "MRP",
     original_price: "Rs. 200.00",
+    id: "e0ac43e3",
   },
   {
     product_img_src:
@@ -477,6 +519,7 @@ let data = [
     discount_price: "Rs. 499.50",
     price: "MRP",
     original_price: "Rs. 999.00",
+    id: "e0ac43e4",
   },
   {
     product_img_src:
@@ -490,6 +533,7 @@ let data = [
     discount_price: "Rs. 799.50",
     price: "MRP",
     original_price: "Rs. 1,599.00",
+    id: "e0ac43e5",
   },
   {
     product_img_src:
@@ -501,6 +545,7 @@ let data = [
     brand: "Mkt: Mankind Pharma Pvt Ltd",
     discount_price: "Rs. 90.00",
     original_price: "Rs. 120.00",
+    id: "e0ac43e6",
   },
   {
     product_img_src:
@@ -512,6 +557,7 @@ let data = [
     brand: "Mkt: Mankind Pharma Pvt Ltd",
     discount_price: "Rs. 60.00",
     original_price: "Rs. 80.00",
+    id: "e0ac43e7",
   },
   {
     product_img_src:
@@ -523,6 +569,7 @@ let data = [
     brand: "Mkt: Reckitt Benckiser India Pvt Ltd",
     discount_price: "Rs. 232.75",
     original_price: "Rs. 245.00",
+    id: "e0ac43e8",
   },
   {
     product_img_src:
@@ -534,6 +581,7 @@ let data = [
     brand: "Mkt: Mankind Pharma Pvt Ltd",
     discount_price: "Rs. 67.50",
     original_price: "Rs. 90.00",
+    id: "e0ac43e9",
   },
   {
     product_img_src:
@@ -545,6 +593,7 @@ let data = [
     brand: "Mkt: Mankind Pharma Pvt Ltd",
     discount_price: "Rs. 67.50",
     original_price: "Rs. 90.00",
+    id: "e0ac43ea",
   },
   {
     product_img_src:
@@ -556,6 +605,7 @@ let data = [
     brand: "Mkt: Reckitt Benckiser India Ltd",
     discount_price: "Rs. 77.90",
     original_price: "Rs. 82.00",
+    id: "e0ac43eb",
   },
   {
     product_img_src:
@@ -567,6 +617,7 @@ let data = [
     brand: "Mkt: Reckitt Benckiser India Pvt Ltd",
     discount_price: "Rs. 232.75",
     original_price: "Rs. 245.00",
+    id: "e0ac43ec",
   },
   {
     product_img_src:
@@ -578,6 +629,7 @@ let data = [
     brand: "Mkt: Hll Lifecare Ltd",
     discount_price: "Rs. 22.50",
     original_price: "Rs. 30.00",
+    id: "e0ac43ed",
   },
   {
     product_img_src:
@@ -591,6 +643,7 @@ let data = [
     discount_price: "Rs. 119.70",
     price: "MRP",
     original_price: "Rs. 171.00",
+    id: "e0ac43ee",
   },
   {
     product_img_src:
@@ -604,6 +657,7 @@ let data = [
     discount_price: "Rs. 72.00",
     price: "MRP",
     original_price: "Rs. 80.00",
+    id: "e0ac43ef",
   },
   {
     product_img_src:
@@ -617,6 +671,7 @@ let data = [
     discount_price: "Rs. 252.00",
     price: "MRP",
     original_price: "Rs. 280.00",
+    id: "e0ac43f0",
   },
   {
     product_img_src:
@@ -630,6 +685,7 @@ let data = [
     discount_price: "Rs. 162.00",
     price: "MRP",
     original_price: "Rs. 180.00",
+    id: "e0ac43f1",
   },
   {
     product_img_src:
@@ -643,6 +699,7 @@ let data = [
     discount_price: "Rs. 166.50",
     price: "MRP",
     original_price: "Rs. 185.00",
+    id: "e0ac43f2",
   },
   {
     product_img_src:
@@ -656,6 +713,7 @@ let data = [
     discount_price: "Rs. 67.50",
     price: "MRP",
     original_price: "Rs. 75.00",
+    id: "e0ac43f3",
   },
   {
     product_img_src:
@@ -669,6 +727,7 @@ let data = [
     discount_price: "Rs. 157.50",
     price: "MRP",
     original_price: "Rs. 175.00",
+    id: "e0ac43f4",
   },
   {
     product_img_src:
@@ -682,6 +741,7 @@ let data = [
     discount_price: "Rs. 30.00",
     price: "",
     original_price: "",
+    id: "e0ac43f5",
   },
   {
     product_img_src:
@@ -696,6 +756,7 @@ let data = [
     discount_price: "Rs. 300.00",
     price: "MRP",
     original_price: "Rs. 400.00",
+    id: "e0ac43f6",
   },
   {
     product_img_src:
@@ -710,6 +771,7 @@ let data = [
     discount_price: "Rs. 190.00",
     price: "",
     original_price: "",
+    id: "e0ac43f7",
   },
   {
     product_img_src:
@@ -723,6 +785,7 @@ let data = [
     discount_price: "Rs. 90.00",
     price: "MRP",
     original_price: "Rs. 100.00",
+    id: "e0ac43f8",
   },
   {
     product_img_src:
@@ -736,6 +799,7 @@ let data = [
     discount_price: "Rs. 171.00",
     price: "MRP",
     original_price: "Rs. 190.00",
+    id: "e0ac43f9",
   },
   {
     product_img_src:
@@ -745,8 +809,9 @@ let data = [
     brand: "Mkt: Unisoft Surgical Industries",
     discount_price: "Rs. 73.44",
     original_price: "Rs. 108.00",
-    category: "devices",
+    category: "device",
     dev_cat: "Orthopaedics",
+    id: "e0ac43fa",
   },
   {
     product_img_src:
@@ -756,8 +821,9 @@ let data = [
     brand: "Mkt: Unisoft Surgical Industries",
     discount_price: "Rs. 378.00",
     original_price: "Rs. 540.00",
-    category: "devices",
+    category: "device",
     dev_cat: "Orthopaedics",
+    id: "e0ac43fb",
   },
   {
     product_img_src:
@@ -767,8 +833,9 @@ let data = [
     brand: "Mkt: Tynor Orthotics Pvt Ltd",
     discount_price: "Rs. 216.00",
     original_price: "Rs. 270.00",
-    category: "devices",
+    category: "device",
     dev_cat: "Orthopaedics",
+    id: "e0ac43fc",
   },
   {
     product_img_src:
@@ -778,8 +845,9 @@ let data = [
     brand: "Mkt: Tynor Orthotics Pvt Ltd",
     discount_price: "Rs. 1,100.00",
     original_price: "Rs. 1,375.00",
-    category: "devices",
+    category: "device",
     dev_cat: "Orthopaedics",
+    id: "e0ac43fd",
   },
   {
     product_img_src:
@@ -789,8 +857,9 @@ let data = [
     brand: "Mkt: Tynor Orthotics Pvt Ltd",
     discount_price: "Rs. 712.00",
     original_price: "Rs. 890.00",
-    category: "devices",
+    category: "device",
     dev_cat: "Orthopaedics",
+    id: "e0ac43fe",
   },
   {
     product_img_src:
@@ -800,8 +869,9 @@ let data = [
     brand: "Mkt: Dynamic Techno Medicals Pvt.Ltd",
     discount_price: "Rs. 231.70",
     original_price: "Rs. 331.00",
-    category: "devices",
+    category: "device",
     dev_cat: "Orthopaedics",
+    id: "e0ac43ff",
   },
   {
     product_img_src:
@@ -811,8 +881,9 @@ let data = [
     brand: "Mkt: Tynor Orthotics Pvt Ltd",
     discount_price: "Rs. 272.00",
     original_price: "Rs. 340.00",
-    category: "devices",
+    category: "device",
     dev_cat: "Orthopaedics",
+    id: "e0ac4400",
   },
   {
     product_img_src:
@@ -822,8 +893,9 @@ let data = [
     brand: "Mkt: Tynor Orthotics Pvt Ltd",
     discount_price: "Rs. 464.00",
     original_price: "Rs. 580.00",
-    category: "devices",
+    category: "device",
     dev_cat: "Orthopaedics",
+    id: "e0ac4401",
   },
   {
     product_img_src:
@@ -833,8 +905,9 @@ let data = [
     brand: "Mkt: Tynor Orthotics Pvt Ltd",
     discount_price: "Rs. 712.00",
     original_price: "Rs. 890.00",
-    category: "devices",
+    category: "device",
     dev_cat: "Orthopaedics",
+    id: "e0ac4402",
   },
   {
     product_img_src:
@@ -844,8 +917,9 @@ let data = [
     brand: "Mkt: Tynor Orthotics Pvt Ltd",
     discount_price: "Rs. 712.00",
     original_price: "Rs. 890.00",
-    category: "devices",
+    category: "device",
     dev_cat: "Orthopaedics",
+    id: "e0ac4403",
   },
   {
     product_img_src:
@@ -855,8 +929,9 @@ let data = [
     brand: "Mkt: Tynor Orthotics Pvt Ltd",
     discount_price: "Rs. 1,040.00",
     original_price: "Rs. 1,300.00",
-    category: "devices",
+    category: "device",
     dev_cat: "Orthopaedics",
+    id: "e0ac4404",
   },
   {
     product_img_src:
@@ -866,8 +941,9 @@ let data = [
     brand: "Mkt: Tynor Orthotics Pvt Ltd",
     discount_price: "Rs. 284.00",
     original_price: "Rs. 355.00",
-    category: "devices",
+    category: "device",
     dev_cat: "Orthopaedics",
+    id: "e0ac4405",
   },
   {
     product_img_src:
@@ -879,6 +955,7 @@ let data = [
     original_price: "Rs. 849.00",
     category: "device",
     dev_cat: "breathing",
+    id: "e0ac4406",
   },
   {
     product_img_src:
@@ -890,6 +967,7 @@ let data = [
     original_price: "Rs. 2,010.00",
     category: "device",
     dev_cat: "breathing",
+    id: "e0ac4407",
   },
   {
     product_img_src:
@@ -901,6 +979,7 @@ let data = [
     original_price: "Rs. 750.00",
     category: "device",
     dev_cat: "breathing",
+    id: "e0ac4408",
   },
   {
     product_img_src:
@@ -913,6 +992,7 @@ let data = [
     original_price: "Rs. 349.00",
     category: "device",
     dev_cat: "breathing",
+    id: "e0ac4409",
   },
   {
     product_img_src:
@@ -924,6 +1004,7 @@ let data = [
     original_price: "Rs. 490.00",
     category: "device",
     dev_cat: "breathing",
+    id: "e0ac440a",
   },
   {
     product_img_src:
@@ -936,6 +1017,7 @@ let data = [
     original_price: "Rs. 349.00",
     category: "device",
     dev_cat: "breathing",
+    id: "e0ac440b",
   },
   {
     product_img_src:
@@ -947,6 +1029,7 @@ let data = [
     original_price: "Rs. 3,960.00",
     category: "device",
     dev_cat: "breathing",
+    id: "e0ac440c",
   },
   {
     product_img_src:
@@ -958,7 +1041,21 @@ let data = [
     original_price: "Rs. 2,380.00",
     category: "device",
     dev_cat: "breathing",
+    id: "e0ac440d",
   },
 ];
+/*
+const newData = data.map((product) => {
+  product["id"] = uniqueID().slice(0, 8);
+  return product;
+});
 
+console.log(newData);
+*/
+const categories = {};
+data.forEach((product) => {
+  categories[product.category] = (categories[product.category] || 0) + 1;
+});
+
+export {categories};
 export default data;

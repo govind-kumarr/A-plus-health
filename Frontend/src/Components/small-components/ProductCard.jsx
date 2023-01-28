@@ -1,25 +1,30 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
-const ProductCard = ({data}) => {
-  // let data = {
-  //   product_img_src:
-  //     "https://www.netmeds.com/images/product-v1/150x150/859708/omron_compressor_nebulizer_ne_c101_0.jpg",
-  //   discount_percent: "20% OFF",
-  //   product_name: "Omron Compressor Nebulizer",
-  //   brand: "Mkt: Omron Healthcare Co Ltd",
-  //   discount_price: "Rs. 1,904.00",
-  //   original_price: "Rs. 2,380.00",
-  //   category: "device",
-  //   dev_cat: "breathing",
-  // };
+const ProductCard = ({ data }) => {
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  const addToCart = () => {
+    dispatch({ type: "ADD_TO_CART", payload: data });
+    navigate("/cart");
+  };
   return (
     <Wrapper>
-      <div className="product_card">
+      <div
+        className="product_card"
+        onClick={() => {
+          // navigate(`/products/${data.id}`);
+        }}
+      >
         <div className="product_image">
           <img src={data.product_img_src} alt={data.product_name} />
         </div>
-        <span className="product_title">{data.product_name&&data.product_name.slice(0,30)}</span>
+        <span className="product_title">
+          {data.product_name && data.product_name.slice(0, 30)}
+        </span>
         <span className="product_manufact">
           <i>{data.brand}</i>
         </span>
@@ -28,7 +33,9 @@ const ProductCard = ({data}) => {
         <span className="product_oPrice">
           <del>{data.original_price}</del>
         </span>
-        <button className="btn addtocart">add to cart</button>
+        <button className="btn addtocart" onClick={() => addToCart()}>
+          add to cart
+        </button>
       </div>
     </Wrapper>
   );
