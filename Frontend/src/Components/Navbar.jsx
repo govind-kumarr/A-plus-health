@@ -128,35 +128,35 @@ export const Navbar = () => {
         </div>
         <h2>
             {/* <Link to={"/Homepage"}>Home</Link> */}
-            <p onClick={Click} style={{"color":"white","cursor":"pointer"} }>Home</p>
+            <p onClick={()=>navigate("/")} style={{"color":"white","cursor":"pointer"} }>Home</p>
             
           </h2>
         <h2>
             {/* <Link to={"/aboutpage"}>ABOUT</Link> */}
-            <p onClick={Click} style={{"color":"white","cursor":"pointer"} }>About</p>
+            <p onClick={()=>navigate("/about")} style={{"color":"white","cursor":"pointer"} }>About</p>
             
           </h2>
           <h2>
             {/* <Link to={"/Servicepage"}>Service</Link> */}
-            <p onClick={Click} style={{"color":"white","cursor":"pointer"} }>Services</p>
+            <p onClick={()=>navigate("/appointment")} style={{"color":"white","cursor":"pointer"} }>Appointment</p>
             
           </h2>
           <h2>
             {/* <Link to={"/Consultantpage"}>Consultant</Link> */}
-            <p onClick={Click} style={{"color":"white","cursor":"pointer"} }>Consultant</p>
+            <p onClick={()=>navigate("/products")} style={{"color":"white","cursor":"pointer"} }>Products</p>
             
           </h2>
         <div className={Style.userdiv}>
           <FaUser className={Style.usericons} />
           
-            <Link   to={"/user/login"}><p style={{"color":"white","font-size": "20px"}}>Sign In</p></Link>
+            <Link   to={"/login"}><p style={{"color":"white","font-size": "20px"}}>Sign In</p></Link>
           
           </div>
 
         <div className={Style.cartNav}>
           <h2>
             {/* <Link to={"/cartpage"}>Cart</Link> */}
-            <p onClick={Click} style={{"color":"white","cursor":"pointer"} }>Check-Out</p>
+            <p onClick={()=>navigate("/cart")} style={{"color":"white","cursor":"pointer"} }>Check-Out</p>
             
           </h2>
         </div>
