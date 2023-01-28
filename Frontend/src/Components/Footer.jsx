@@ -21,7 +21,7 @@ import {
 
 const ListHeader = ({ children }) => {
   return (
-    <Text fontWeight={"500"} fontSize={"lg"} mb={2}>
+    <Text fontWeight={"500"} fontSize="20px" mb={2} >
       {children}
     </Text>
   );
@@ -36,6 +36,7 @@ export default function Footer() {
         py={10}
         borderBottom={"2px solid"}
         borderColor={"gray.600"}
+        fontSize="15px"
       >
         <SimpleGrid
           templateColumns={{ sm: "1fr 1fr", md: "2fr 1fr 1fr 1fr 1fr" }}
@@ -56,18 +57,18 @@ export default function Footer() {
               <FaInstagram size={"2rem"} />
               <FaWhatsapp size={"2rem"} />
             </HStack>
-            <Text fontSize={"lg"} fontWeight={"600"}>
+            <Text fontSize="13px" fontWeight={"600"}>
               1.5M +
-              <Text fontSize={"sm"} color={"#01bfbd"}>
+              <Text fontSize="13px" color={"#01bfbd"}>
                 Followers
               </Text>
             </Text>
             <Stack>
-              <Text fontSize={"md"} fontWeight={"500"}>
+              <Text fontSize="15px" fontWeight={"500"}>
                 For any queries
-                <Text fontSize={"md"} fontWeight={"500"}>
+                <Text fontSize="15px" fontWeight={"500"}>
                   Email: info@A+.org
-                  <Text fontSize={"md"} fontWeight={"500"}>
+                  <Text fontSize="15px" fontWeight={"500"}>
                     Contact No.: +91 8219189058
                   </Text>
                 </Text>
